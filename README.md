@@ -54,8 +54,11 @@ sh build.sh
 
 ## 修改設定檔
 另外，你可以在config.toml檔裡面，修改網頁主版的各種設定。
+
 使用*線上程式碼編輯器*來編輯~
+
 > 格式編輯器：https://www.codepile.net/pile/ZJw9RKQV
+
 一樣輸入
 ```
 sh build.sh
