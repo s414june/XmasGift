@@ -1,0 +1,4 @@
+baseURL = 'https://s414june.github.io/xmasGift'
+languageCode = 'zh-TW'
+title = 'My New Hugo Site'
+theme = 'hugo-pacman-theme'
