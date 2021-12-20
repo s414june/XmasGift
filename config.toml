@@ -50,19 +50,18 @@ pygmentsUseClasses = true
     ShowSideBar = "顯示側邊欄"
     HideSideBar = "隱藏側邊欄"
     Categories = "分類"
-    Archive = "歸檔"
+    Archive = "時間"
     Tags = "標籤"
-    TagCloud = "標籤門"
     Rss = "RSS 訂閱"
     TableOfContents = "文章目錄"
 
 [Menu]
   [[Menu.Main]]
-    Name = "首页"
+    Name = "首頁"
     URL = "/"
     Weight = 1
   [[Menu.Main]]
-    Name = "关于"
+    Name = "關於"
     URL = "/about"
     Weight = 2
 
