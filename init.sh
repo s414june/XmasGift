@@ -32,3 +32,4 @@ git push origin main
 
 #如果還沒設定github帳號密碼存儲，先執行以下指令
 #git config --global credential.helper manager
+
