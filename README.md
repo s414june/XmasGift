@@ -34,7 +34,7 @@
 * 按右鍵，選擇「Git Bash here」
 * 輸入以下指令碼：
 ```
-sh post.sh
+sh build.sh
 ```
 * 大功告成！靜待網頁3分鐘左右更新:-)
 
@@ -44,7 +44,7 @@ sh post.sh
 > 格式編輯器：https://www.codepile.net/pile/ZJw9RKQV
 一樣輸入
 ```
-sh post.sh
+sh build.sh
 ```
 來更新頁面。
 
