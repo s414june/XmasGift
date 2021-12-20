@@ -1,7 +1,7 @@
-git remote add origin https://github.com/s414june/xmasGift2.git
-git fetch origin
-git push -u origin main
+git remote add xmasGift2 https://github.com/s414june/xmasGift2.git
+git fetch xmasGift2
+git push -u xmasGift2 main
 git checkout main
 git add . 
 git commit -m "init github pages"
-git push origin
+git push xmasGift2
