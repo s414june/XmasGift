@@ -2,13 +2,13 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>about - My New Hugo Site</title>
+  <title>hello hugo - My New Hugo Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="关于 Hugo 主题 balabalbalbalbal&hellip;">
+  <meta name="description" content="Hello Hugo Balalala&hellip; Balalala&hellip; Balalala&hellip;">
   
-  <meta itemprop="name" content="about - My New Hugo Site">
-  <meta itemprop="description" content="关于 Hugo 主题 balabalbalbalbal&hellip;">
+  <meta itemprop="name" content="hello hugo - My New Hugo Site">
+  <meta itemprop="description" content="Hello Hugo Balalala&hellip; Balalala&hellip; Balalala&hellip;">
   <meta itemprop="image" content="https://s414june.github.io/xmasGift/img/author.jpg">
   
   
@@ -64,7 +64,7 @@
 	<article itemprop="articleBody">
     <header class="article-info clearfix">
   <h1 itemprop="name">
-      <a href="https://s414june.github.io/xmasGift/about/" title="about" itemprop="url">about</a>
+      <a href="https://s414june.github.io/xmasGift/post/%E6%96%B0%E6%96%87%E7%AB%A0/" title="hello hugo" itemprop="url">hello hugo</a>
   </h1>
   <p class="article-author">By
     
@@ -72,26 +72,51 @@
     
   </p>
   <p class="article-time">
-    <time datetime="2016-03-20 23:28:02 &#43;0800 CST" itemprop="datePublished">2016年03月20日</time>
+    <time datetime="2016-02-20 15:34:05 &#43;0800 CST" itemprop="datePublished">2016年02月20日</time>
   </p>
 </header>
 
 	<div class="article-content">
     
-    <h2 id="关于">关于</h2>
-<h3 id="hugo">Hugo</h3>
-<h3 id="主题">主题</h3>
-<p>balabalbalbalbal&hellip;</p>
+		<div class="toc-article">
+			<strong class="toc-title">文章目錄</strong>
+      <nav id="TableOfContents"></nav>
+		</div>
+    
+    <h1 id="hello-hugo">Hello Hugo</h1>
+<p>Balalala&hellip;</p>
+<p>Balalala&hellip;</p>
+<p>Balalala&hellip;</p>
 
     
 	</div>
   <footer class="article-footer clearfix">
   
 
+<div class="article-tags">
+  <span></span>
+  
+  <a href="https://s414june.github.io/xmasGift/tags/test">Test</a>
+  
+  <a href="https://s414june.github.io/xmasGift/tags/bar">Bar</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="https://s414june.github.io/xmasGift/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F">思考感悟</a>
+  
+</div>
+
 
 
   <div class="article-share" id="share">
-    <div data-url="https://s414june.github.io/xmasGift/about/" data-title="about" data-tsina="123" class="share clearfix">
+    <div data-url="https://s414june.github.io/xmasGift/post/%E6%96%B0%E6%96%87%E7%AB%A0/" data-title="hello hugo" data-tsina="123" class="share clearfix">
     </div>
   </div>
 </footer>
@@ -243,6 +268,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -269,6 +326,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="https://s414june.github.io/xmasGift/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="https://s414june.github.io/xmasGift/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 
