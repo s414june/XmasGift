@@ -1,4 +1,4 @@
-git remote add origin https://github.com/s414june/xmasGift.git
+git remote add origin https://github.com/s414june/xmasGift2.git
 git fetch origin
 git push -u origin main
 git checkout main
