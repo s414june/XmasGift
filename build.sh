@@ -17,4 +17,4 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 # Push source and build repos.
-git push -u main main
+git push -u origin main
