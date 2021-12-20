@@ -5,8 +5,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project.
 hugo -d docs # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Add changes to git.
-git remote rm origin
-# git remote add origin https://github.com/s414june/xmasGift.git
+git remote add origin https://github.com/s414june/xmasGift.git
 git add .
 # Commit changes.
 msg="rebuilding site $(date)"
