@@ -65,6 +65,7 @@ hugo server -D
 > 瀏覽Hugo Basic Usage，學習更多指令：https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
 * 接著，Git Bash會顯示：Web Server is available at http://localhost: ...
 * 複製貼上、或在瀏覽器網址列輸入這行地址，就會看到預覽頁面。
+* 你可以一邊修改，一邊看預覽結果喔，只要存檔就會立刻更新頁面~
 * 要結束這個伺服工作，請輸入Ctrl+C。
 
 ## Git Bash複製貼上

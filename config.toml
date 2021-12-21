@@ -1,14 +1,14 @@
 baseURL = 'https://s414june.github.io/xmasGift/'
 languageCode = 'zh-TW'
 HasCJKLanguage = true
-title = 'My New Hugo Site'
+title = 'Christmas Gift for You<3'
 theme = 'hugo-pacman-theme'
 
 pygmentsStyle = "default"
 pygmentsUseClasses = true
 
 [Author]
-  # Name = "your-name"
+  Name = ""
 
 [outputs]
   home = [ "RSS", "HTML" ]
@@ -22,7 +22,7 @@ pygmentsUseClasses = true
   # AuthorHomepage = "your-home-page"-
   BottomIntroduce = "Introduce1 <br/> Introduce2"
   Description = ""
-  Subtitle = "subtitle"
+  Subtitle = "Marry Christmas!"
   Weibo = ""
   WeiboID = 123
   Twitter = ""
@@ -52,7 +52,7 @@ pygmentsUseClasses = true
     Categories = "分類"
     Archive = "時間"
     Tags = "標籤"
-    Rss = "RSS 訂閱"
+    # Rss = "RSS 訂閱"分類
     TableOfContents = "文章目錄"
 
 [Menu]

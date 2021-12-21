@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>教學 on My New Hugo Site</title>
+    <title>教學 on Christmas Gift for You&lt;3</title>
     <link>https://s414june.github.io/xmasGift/tags/%E6%95%99%E5%AD%B8/</link>
-    <description>Recent content in 教學 on My New Hugo Site</description>
+    <description>Recent content in 教學 on Christmas Gift for You&lt;3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Tue, 21 Dec 2021 10:30:00 +0800</lastBuildDate><atom:link href="https://s414june.github.io/xmasGift/tags/%E6%95%99%E5%AD%B8/feed.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Tue, 21 Dec 2021 10:30:00 +0800</pubDate>
       
       <guid>https://s414june.github.io/xmasGift/post/first/</guid>
-      <description>歡迎使用Hugo部落格! 以下是各項目書寫格式： date 格式：年(4位)+月(2位)+日(2位)+T+時(2位)+分(2位)+秒(2位)+08:00</description>
+      <description>歡迎使用Hugo部落格! 以下是各項目書寫格式： date日期 格式：年(4位)+月(2位)+日(2位)+T+時(2位)+分(2位)+秒(2位)+</description>
     </item>
     
   </channel>
