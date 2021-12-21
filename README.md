@@ -60,9 +60,9 @@ sh build.sh
 hugo server -D
 ```
 * -D是draft(草稿)的意思
-這表示你還沒進行建置的文章
+這表示你還沒進行build(建置)的文章
 (因為我把建置包在build.sh裡了，所以就是指你上傳到網路前的那些文章)也會顯示。
-> 瀏覽Hugo Basic Usage：https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
+> 瀏覽Hugo Basic Usage，學習更多指令：https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
 * 接著，Git Bash會顯示：Web Server is available at http://localhost: ...
 * 複製貼上、或在瀏覽器網址列輸入這行地址，就會看到預覽頁面。
 * 要結束這個伺服工作，請輸入Ctrl+C。

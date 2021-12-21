@@ -1,65 +1,32 @@
 +++
-date = "2016-03-20T12:13:19+08:00"
-title = "first"
-categories = ["技术文章"]
-tags = ["Foo", "Bar"]
+date = "2021-12-21T10:30:00+08:00"
+title = "撰寫文章教學"
+categories = ["教學"]
+tags = ["教學", "Hugo"]
 toc = true
-author = "coderzh"
-author_homepage =  "http://blog.coderzh.com/post/"
+author = "青蛙"
+
 
 +++
 
-## 主题概况
+歡迎使用Hugo部落格!
+---
+以下是各項目書寫格式：
 
-Balalalalala...
+## date
+* 格式：年(4位)+月(2位)+日(2位)+T+時(2位)+分(2位)+秒(2位)+08:00
+* 範例： "2021-12-21T10:30:00+08:00"
 
-Balalalalala...
+(08:00是時區)
 
-## 安装指南
+## categories
+* 文章分類，僅限一個
+* 範例：["教學"]
 
-1. aaaaaaa
-1. bbbbbbb
-1. ccccccc
+## tags
+* 標籤，任意數量，以逗號隔開
+* 範例：["教學", "Hugo"]
 
-### 安装
-
-**bold**
-
-### 启用
-
-
-```
-print('hello world!')
-```
-
-### 更新
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-## 配置指南
-
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-### 属性
-
-[link text itself]: http://blog.coderzh.com
-
-![qrcode](http://blog.coderzh.com/public/qrcode.jpg)
-
-### 说明
-
-1. First ordered list item
-2. Another item
-  * Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
-
-## Q&A
-
-Balabalabalabala...
+## toc
+* 是否添加至文章目錄裡，true或是false
+* 如果為true就會添加到側邊欄中
