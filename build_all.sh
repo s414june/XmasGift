@@ -7,10 +7,10 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 git pull origin main
 #把hugo編輯檔轉成網頁資料，包在doc裡面
 hugo -d docs # if using a theme, replace with `hugo -t <YOURTHEME>`
-# Add changes to git.把doc加入變更
-git add docs
+# Add changes to git.加入全部
+git add .
 # Commit changes.
-msg="rebuilding site $(date) (only docs)"
+msg="rebuilding site $(date) (ALL)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
