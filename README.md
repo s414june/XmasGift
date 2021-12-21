@@ -50,7 +50,26 @@
 ```
 sh build.sh
 ```
-* 大功告成！靜待網頁3分鐘左右更新:-)
+* 大功告成！靜待網頁2分鐘左右更新:-)
+
+## 在電腦內檢視變更
+上傳到網路上前，想先看看在網頁上的效果嗎？
+* 一樣在網站資料夾按右鍵，選擇「Git Bash here」
+* 輸入以下指令碼：
+```
+hugo server -D
+```
+* -D是draft(草稿)的意思
+這表示你還沒進行建置的文章
+(因為我把建置包在build.sh裡了，所以就是指你上傳到網路前的那些文章)也會顯示。
+> 瀏覽Hugo Basic Usage：https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
+* 接著，Git Bash會顯示：Web Server is available at http://localhost: ...
+* 複製貼上、或在瀏覽器網址列輸入這行地址，就會看到預覽頁面。
+* 要結束這個伺服工作，請輸入Ctrl+C。
+
+## Git Bash複製貼上
+* Ctrl+insert:複製
+* Shift+insert:貼上
 
 ## 修改設定檔
 另外，你可以在config.toml檔裡面，修改網頁主版的各種設定。
